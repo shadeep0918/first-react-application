@@ -5,6 +5,7 @@ import About from './About';
 import Home from './Home'; // This will work now that the file exists!
 import './App.css';
 import Contact from './Contact'; 
+import Footer from './Footer';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element ={<Contact/>}/>
         </Routes>
+        <Footer/>
       </div>
+      
     </Router>
   );
 }
